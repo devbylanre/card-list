@@ -143,7 +143,7 @@ function App() {
               return (
                 <motion.div
                   key={index}
-                  initial={{ backgroundColor: 'inherit' }}
+                  initial={{ backgroundColor: 'inherit', borderRadius: 0 }}
                   animate={{
                     backgroundColor: isActiveCard ? card.color : 'inherit',
                     borderRadius: isActiveCard ? '20px' : '0px',
